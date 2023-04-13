@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Hanken+Grotesk:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Hanken Grotesk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #7e7b7b;
+}
+
+.Result-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+}
+.result-box,.summary-box{
+    flex: 1;
+}
+
+.result-box{
+    background:linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    height: 100%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.result-box h2{
+    color:rgba(255, 255, 255,0.8);
+    margin-top: 1rem;
+}
+
+.grade-circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    background:linear-gradient(180deg,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: auto;  
+    margin-top: 2rem; 
+}
+.grade-circle p{
+    padding: 2rem;
+    text-align: center;
+   
+
+}
+.span_num{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.grade-text{
+    margin-top: 2rem;
+}
+
+.span_text{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.grade-text p{
+    color:rgba(255, 255, 255,0.7) ;
+
+}
+
+/* Summary */
+
+.summary-box{
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.summary-box h2{
+    text-align: left;
+    color: rgb(48, 59, 90);
+}
+.summary-box span{
+    font-weight: 700;
+    color: rgb(48, 59, 90);
+}
+.box{
+    /* border: 3px white solid; */
+    padding: 8px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: 1%;
+     display: flex; 
+    justify-content: space-around;
+    align-self: center;
+    
+}
+
+.reaction{
+    background:  rgba(253, 218, 218, 0.5);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.reaction_name{
+    color: rgb(255, 87, 87);
+    margin-right: 50px;
+}
+.reaction_name i{
+    margin-right: 1rem;
+}
+
+.memory{
+    background: rgba(255, 176, 31, 0.3);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.memory_name{
+    color: rgb(255, 176, 31);
+    margin-right: 50px;
+}
+
+.memory_name i{
+    margin-right: 1rem;
+}
+
+.verbal{
+    background:rgba(0, 189, 145, 0.1);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.verbal_name{
+    color: rgb(0, 189, 145);
+    margin-right: 50px;
+}
+
+.verbal_name i{
+    margin-right:1rem ;
+}
+
+.visiual{
+    background:rgba(17, 37, 212, 0.1);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.visiual_name{
+    color: rgb(17, 37, 212);
+    margin-right: 50px;
+}
+
+.visiual_name i{
+    margin-right: 1rem;
+}
+
+.btn{
+    padding: 1rem;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background:rgb(48, 59, 90) ;
+    border: none;
+    display: block;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.btn:hover{
+    background:linear-gradient(180deg, hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+}
+
+
+
+
+
+
+
+
